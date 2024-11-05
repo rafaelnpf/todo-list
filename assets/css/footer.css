@@ -1,0 +1,36 @@
+.list-inline-item i {
+  color: #ffffff;
+}
+
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+footer h5 {
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+footer p, footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer hr {
+  border-top: 1px solid #fff;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+footer .list-inline-item a {
+  color: #ffffff;
+  font-size: 23px;
+}
+
