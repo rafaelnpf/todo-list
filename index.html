@@ -1,43 +1,178 @@
 <!DOCTYPE html>
-<html lang="pt-br" style="height: 800px;padding-top: 50px;">
+<html data-bs-theme="light" lang="pt-pt" style="font-family: 'Russo One', sans-serif;background: #f3f6fa;">
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>TODO List</title>
+    <title>Digital Soluções</title>
+    <meta name="description" content="Um espaço criativo onde ideias ganham vida e soluções inovadoras se transformam em sucesso para o seu negócio.">
+    <meta property="og:image" content="assets/img/Logo.png">
     <meta property="og:type" content="website">
-    <link rel="icon" type="image/png" sizes="256x256" href="assets/img/check.png">
-    <link rel="icon" type="image/png" sizes="256x256" href="assets/img/check.png">
+    <link rel="icon" type="image/png" sizes="500x500" href="assets/img/Logo.png">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Russo+One&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/Articles-Cards-images.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic-icons.css">
+    <link rel="stylesheet" href="assets/css/Footer-with-social-media-icons-1.css">
+    <link rel="stylesheet" href="assets/css/Footer-with-social-media-icons.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
 </head>
 
-<body style="margin-top: -15px;">
-    <h1><span class="title">To do </span>List</h1>
-    <div class="inputDiv">
-        <input type="text" class="input" placeholder="What will you do?">
-        <button class="add"><i class="fas fa-plus"></i></button>
-    </div>
-    <div class="container">
-    </div>
-    <script src="/todo-list/public/script/main.js"></script>
-    <div class="footer-basic" style="height: 170px;padding-top: 15px;background: rgba(255,255,255,0);margin-top: 270px;">
-        <footer style="margin-top: -100px;"></footer>
-        <div class="social" style="background: rgba(128,128,128,0);color: rgba(255,255,255,0);border-style: none;margin-top: 170px;height: 55px;"><a href="https://github.com/rafaelnpf" style="background: gold;padding: 0px;"><i class="icon ion-social-github" style="color: rgb(0,0,0);border-style: none;"></i></a>
-            <a href="https://www.linkedin.com/in/rafaelnpf/" style="background: gold;padding: 0px;"><i class="icon ion-social-linkedin" style="color: rgb(0,0,0);"></i></a>
-            <a href="https://www.instagram.com/rafaelnpf/" style="background: gold;padding: 0px;"><i class="icon ion-social-instagram" style="color: rgb(0,0,0);"></i></a>
-            <a href="https://br.pinterest.com/rafaelnpf/" style="background: gold;padding: 0px;"><i class="icon ion-social-pinterest" style="color: rgb(0,0,0);"></i></a>
-            <a href="https://open.spotify.com/user/12166927631?si=NqHHBIQ1TKCFewCg-fZiRA" style="background: gold;padding: 0px;"><i class="fa fa-spotify" style="color: rgb(0,0,0);border-style: none;"></i></a>
+<body style="background: #f3f6fa;">
+    <nav class="navbar navbar-expand-md fixed-top navbar-shrink py-3" id="mainNav" style="font-family: 'Russo One', sans-serif;background: #f3f6fa;">
+        <div class="container"><img src="assets/img/Logo.png" width="43" height="43"><a class="navbar-brand d-flex align-items-center" href="/"><span style="color: #01040e;">Digital Soluções</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html" style="color: #01040e;">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Portfólio.html" style="color: #01040e;"><strong>Portfólio</strong></a></li>
+                    <li class="nav-item"><a class="nav-link" href="Preço.html" style="color: #01040e;">Preços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Time.html" style="color: #01040e;">Time</a></li>
+                </ul><a class="btn btn-primary shadow" role="button" href="wa.me/74991415935" style="background: #52c6ca;">Contato</a>
+            </div>
         </div>
-        <p class="copyright" style="color: rgb(173,173,173);margin-top: 5px;">Rafael Nunes © 2020</p>
-    </div>
-    <script src="jquery.js"></script>
+    </nav>
+    <header class="pt-5" style="background: #f3f6fa;">
+        <div class="container pt-4 pt-xl-5">
+            <div class="row pt-5">
+                <div class="col-md-8 text-center text-md-start mx-auto" style="font-family: 'Russo One', sans-serif;">
+                    <div class="text-center">
+                        <h1 class="display-4 fw-bold mb-5" style="color: #01040e;"><strong>Sobre a agência:</strong></h1>
+                        <p class="fs-5 text-muted mb-5" style="text-align: justify;color: #01040e;">Nossa história começou de forma simples: desde os primeiros passos como estudante e freelancer, já existia o sonho de criar uma agência que fosse referência em resultados e qualidade. Após anos de dedicação e evolução constante, esse sonho se tornou realidade! Hoje, com mais de 8 anos de experiência e um portfólio diversificado de clientes, a nossa agência se destaca por desenvolver soluções únicas e impactantes para cada projeto. Para nós, cada cliente é uma oportunidade de transformar ideias em resultados concretos. Vamos juntos nessa jornada?</p>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-10 mx-auto">
+                    <div class="text-center position-relative"><img class="img-fluid" src="assets/img/illustrations/meeting.svg" style="width: 600px;margin-top: -70px;" width="800" height="603"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section style="background: #f3f6fa;">
+        <div class="container py-4 py-xl-5" style="background: #ffffff;border-radius: 1%;font-family: 'Russo One', sans-serif;">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="display-6 fw-bold pb-md-4">Nosso time</h3>
+                </div>
+                <div class="col-md-6 pt-4">
+                    <p class="text-muted mb-4"><strong>Temos uma equipe muito competente e comprometida com o seu negocio.</strong></p>
+                </div>
+            </div>
+            <div class="row gy-4 gy-md-0">
+                <div class="col-md-6 d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-center">
+                    <div>
+                        <div class="row gy-2 row-cols-1 row-cols-sm-2">
+                            <div class="col text-center text-md-start">
+                                <div class="d-flex justify-content-center align-items-center justify-content-md-start"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 24 24" width="1em" fill="currentColor" class="fs-3 text-primary bg-secondary" style="background: linear-gradient(#52c6ca 93%, white 100%), #52c6ca;">
+                                        <path d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"></path>
+                                    </svg>
+                                    <h5 class="fw-bold mb-0 ms-2"><strong>Social Media</strong></h5>
+                                </div>
+                                <p class="text-muted my-3" style="text-align: justify;">Nossa equipe cuida da presença digital da sua marca com estratégias criativas que vão além do post. Planejamos, geramos conteúdo e engajamos seu público, construindo uma imagem sólida e conectada com sua audiência.</p>
+                            </div>
+                            <div class="col text-center text-md-start">
+                                <div class="d-flex justify-content-center align-items-center justify-content-md-start"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-traffic-cone fs-3 text-primary bg-secondary" style="background: linear-gradient(#52c6ca 99%, white), #52c6ca;">
+                                        <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                        <path d="M4 20l16 0"></path>
+                                        <path d="M9.4 10l5.2 0"></path>
+                                        <path d="M7.8 15l8.4 0"></path>
+                                        <path d="M6 20l5 -15h2l5 15"></path>
+                                    </svg>
+                                    <h5 class="fw-bold mb-0 ms-2"><strong>Gestão de Tráfego</strong></h5>
+                                </div>
+                                <p class="text-muted my-3" style="text-align: justify;">Quer resultados rápidos e eficientes? Nossa gestão de tráfego cria campanhas segmentadas para alcançar o público certo, no momento certo, transformando visitantes em clientes e aumentando suas vendas com precisão.</p>
+                            </div>
+                            <div class="col text-center text-md-start">
+                                <div class="d-flex justify-content-center align-items-center justify-content-md-start"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" fill="none" class="fs-3 text-primary bg-secondary" style="background: linear-gradient(#52c6ca 97%, white), #52c6ca;">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6 2C4.89543 2 4 2.89543 4 4V16C4 17.1046 4.89543 18 6 18H14C15.1046 18 16 17.1046 16 16V7.41421C16 6.88378 15.7893 6.37507 15.4142 6L12 2.58579C11.6249 2.21071 11.1162 2 10.5858 2H6ZM7 10C6.44772 10 6 10.4477 6 11C6 11.5523 6.44772 12 7 12H13C13.5523 12 14 11.5523 14 11C14 10.4477 13.5523 10 13 10H7Z" fill="currentColor"></path>
+                                    </svg>
+                                    <h5 class="fw-bold mb-0 ms-2"><strong>Programação Web</strong></h5>
+                                </div>
+                                <p class="text-muted my-3" style="text-align: justify;">Seu negócio precisa de um site que seja funcional e moderno! Desenvolvemos sites otimizados, rápidos e responsivos, oferecendo uma experiência de navegação incrível para os visitantes e potencializando seus resultados online.</p>
+                            </div>
+                            <div class="col text-center text-md-start">
+                                <div class="d-flex justify-content-center align-items-center justify-content-md-start"><svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="1em" viewBox="0 0 24 24" width="1em" fill="currentColor" class="fs-3 text-primary bg-secondary" style="background: linear-gradient(#52c6ca 98%, white), #52c6ca;">
+                                        <g>
+                                            <rect fill="none" height="24" width="24"></rect>
+                                        </g>
+                                        <g>
+                                            <g></g>
+                                            <g>
+                                                <path d="M21.79,17.06l-5.55-5.55l1.57-1.57l-3.75-3.75l-1.57,1.57L6.94,2.21L2.21,6.94l5.55,5.55L3,17.25V21h3.75l4.76-4.76 l5.55,5.55l0,0v0L21.79,17.06z M9.18,11.07L5.04,6.94l1.9-1.9l1.27,1.27L7.02,7.5l1.41,1.41l1.19-1.19l1.45,1.45L9.18,11.07z M12.93,14.82l1.9-1.9l1.45,1.45l-1.19,1.19l1.41,1.41l1.19-1.19l1.27,1.27l-1.9,1.9L12.93,14.82z"></path>
+                                                <rect height="5.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 1.302 14.5981)" width="3.59" x="16.48" y="3.08"></rect>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                    <h5 class="fw-bold mb-0 ms-2"><strong>Design</strong></h5>
+                                </div>
+                                <p class="text-muted my-3" style="text-align: justify;">Design é a identidade visual da sua marca. Criamos logotipos, artes e materiais personalizados para que sua empresa se destaque e conquiste seus clientes desde o primeiro olhar. Cada detalhe é pensado para refletir seu valor e diferencial.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 order-first order-md-last">
+                    <div><img class="rounded img-fluid w-100 fit-cover" style="min-height: 300px;text-align: center;margin-top: 100px;" src="assets/img/illustrations/teamwork.svg"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-4 py-xl-5" style="background: #f3f6fa;">
+        <div class="container" style="background: rgba(255,255,255,0);">
+            <div class="bg-primary border rounded border-0 border-primary overflow-hidden">
+                <div class="row g-0">
+                    <div class="col-md-6 d-flex flex-column justify-content-center" style="background: #01040e;">
+                        <div class="text-white p-4 p-md-5" style="font-family: 'Russo One', sans-serif;">
+                            <h2 class="fw-bold mb-3">Montamos o seu site sobe medida para você.</h2>
+                            <p class="mb-4">Nada de soluções genéricas! Criamos sites personalizados que refletem a essência da sua marca e atendem às suas necessidades. Quer um site que realmente faça a diferença?<br><br>👉 Entre em contato e vamos fazer acontecer!</p>
+                            <div class="my-3" style="text-align: center;"><a class="btn btn-secondary me-2 mt-2" role="button" href="wa.me/74991415935" style="background: #52c6ca;border-color: #52c6ca;color: #f3f6fa;">Quero o meu!</a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 order-first order-md-last" style="min-height: 250px;"><img class="w-100 h-100 fit-contain pt-5 pt-md-0" src="assets/img/illustrations/web-development.svg" style="background: #01040e;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="py-4 py-xl-5" style="background: #f3f6fa;">
+        <div class="container">
+            <div class="text-white bg-primary border rounded border-0 border-primary d-flex flex-column justify-content-between flex-lg-row p-4 p-md-5" style="color: #52c6ca;background: linear-gradient(black 98%, white 100%), #01040e;font-family: 'Russo One', sans-serif;">
+                <div class="pb-2 pb-lg-1">
+                    <h2 class="fw-bold mb-2" style="color: #f3f6fa;"><strong><span style="color: rgba(var(--bs-warning-rgb), var(--bs-text-opacity));">Precisa dos nossos serviços?</span></strong></h2>
+                    <p class="mb-0">Aproveite uma oportunidade imperdível, entre em contato.</p>
+                </div>
+                <div class="my-2"><a class="btn btn-light fs-5 py-2 px-4" role="button" href="wa.me/74991415935">Entre em contato, clique aqui!</a></div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark pt-5 pb-4" style="border-color: #f3f6fa;--bs-body-bg: #f3f6fa;background: linear-gradient(black 0%, #f3f6fa 0%), #f3f6fa;">
+        <div class="container text-md-left" style="margin-top: -30px;">
+            <hr class="mb-4">
+            <div class="row align-items-center">
+                <div class="col-md-7 col-lg-8" style="font-family: 'Russo One', sans-serif;background: #f3f6fa;border-color: #f3f6fa;">
+                    <p class="text-md-left" style="color: #01040e;">© 2024 Digital Soluções.</p>
+                </div>
+                <div class="col-md-5 col-lg-4" style="border-color: #f3f6fa;background: #f3f6fa;">
+                    <div class="text-md-right">
+                        <ul class="list-unstyled list-inline" style="color: rgb(16,16,16);">
+                            <li class="list-inline-item"><a href="https://www.google.com/maps/dir/-11.1820679,-40.5228873/digital+solu%C3%A7%C3%B5es/@-11.1828018,-40.524774,16z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x76cf3778a5d4e53:0x8bc2ad3b4096d28a!2m2!1d-40.5163609!2d-11.1829225?entry=ttu&amp;g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D" class="btn-floating btn-sm text-light" style="font-size:23px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-64 0 512 512" width="1em" height="1em" fill="currentColor" style="color: #01040e;">
+                                        <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+                                        <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"></path>
+                                    </svg></a></li>
+                            <li class="list-inline-item"><a href="https://www.instagram.com/digitalsolucoes.br/" class="btn-floating btn-sm text-light" style="font-size:23px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor" style="color: #01040e;">
+                                        <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+                                        <path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                                    </svg></a></li>
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/company/digital-solu%C3%A7%C3%B5es-br/?viewAsMember=true" class="btn-floating btn-sm text-light" style="font-size:23px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor" style="color: #01040e;">
+                                        <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+                                        <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"></path>
+                                    </svg></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
+    <script src="assets/js/startup-modern.js"></script>
 </body>
 
 </html>
